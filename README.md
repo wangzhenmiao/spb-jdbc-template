@@ -26,9 +26,9 @@
  三、数据库初始化配置
  
     CREATE TABLE IF NOT EXISTS `tb_user`(
-   `id` INT UNSIGNED AUTO_INCREMENT,
-   `login_name` VARCHAR(100) NOT NULL,
-   `password` VARCHAR(100) NOT NULL,
-   `username` VARCHAR(40) NOT NULL,
+   	`id` INT UNSIGNED AUTO_INCREMENT,
+  	 `login_name` VARCHAR(100) NOT NULL,
+   	`password` VARCHAR(100) NOT NULL,
+   	`username` VARCHAR(40) NOT NULL,
     PRIMARY KEY ( `id` )
     )ENGINE=InnoDB DEFAULT CHARSET=utf8;
