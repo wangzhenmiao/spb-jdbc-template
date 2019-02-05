@@ -32,3 +32,15 @@
    	`username` VARCHAR(40) NOT NULL,
     PRIMARY KEY ( `id` )
     )ENGINE=InnoDB DEFAULT CHARSET=utf8;
+    
+    //类中属性
+    private int id ;
+    private String loginName ;
+    private String username ;
+    private String password;
+    
+    实体类中的loginName对应数据库中的login_name,
+    
+    username对应数据库中的username,
+    
+    感觉应该是按着大写字母开头，区分的。
