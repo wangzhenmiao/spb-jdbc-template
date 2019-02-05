@@ -53,7 +53,13 @@
     
  四、web访问
  
- url:http://127.0.0.1:8080/user/insertGetKey?loginName=x1&username=%E5%BE%90%E7%A3%8A&password=123456
+ 1、url:http://127.0.0.1:8080/user/insertGetKey?loginName=x1&username=徐磊&password=123456
+ 
  输出:{"id":4,"loginName":"x1","username":"徐磊","password":"123456"}
+ 
+ 2、url:http://127.0.0.1:8080/user/findAll
+ 
+ 输出:[{"id":1,"loginName":"swk","username":"孙悟空","password":"123456"},{"id":2,"loginName":"zbj","username":"猪八戒","password":"123456"},{"id":3,"loginName":"ts","username":"唐僧","password":"123456"},{"id":4,"loginName":"x1","username":"徐磊","password":"123456"}]
+ 
  
  五、
