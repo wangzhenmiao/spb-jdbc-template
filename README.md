@@ -8,14 +8,14 @@
 
 1、web开发依赖配置
 
-    <dependency>
+   		 <dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-web</artifactId>
 		</dependency>
     
  2、数据库驱动依赖配置
  
-   	<dependency>
+   		<dependency>
 			<groupId>mysql</groupId>
 			<artifactId>mysql-connector-java</artifactId>
 			<scope>runtime</scope>
